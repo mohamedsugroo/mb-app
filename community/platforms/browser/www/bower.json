@@ -1,0 +1,20 @@
+{
+  "name": "bulsho",
+  "authors": [
+    "mohamedsugroo <mohamedsugroo@gmail.com>"
+  ],
+  "description": "community chat app",
+  "main": "index.html",
+  "keywords": [
+    "bulsho"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

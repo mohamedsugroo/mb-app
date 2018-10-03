@@ -1,0 +1,25 @@
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+    <title>Bulsho</title>
+    <script src="bower_components/angular/angular.js"></script>
+</head>
+<body ng-app="bulshoApp">
+
+    <div class="app" ng-controller="BeerCounter">
+        hello world
+        <div ng-repeat="n in bears">
+            {{n.name}}
+        </div>
+    </div>
+
+    <!-- scripts -->
+    <script type="text/javascript" src="cordova.js"></script>
+    <script src="scripts/app.js" ></script>
+    <script src="scripts/controllers/community.js"></script>
+    
+</body>
+</html>

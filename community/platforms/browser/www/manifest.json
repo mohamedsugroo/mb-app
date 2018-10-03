@@ -1,0 +1,11 @@
+{
+  "background_color": "#FFF",
+  "display": "standalone",
+  "name": "Bulsho",
+  "short_name": "Bulsho",
+  "version": "io.cordova.bulsho",
+  "description": "Community sharing platform built by somalis for somalis.",
+  "author": "Mohamed Sugroo",
+  "icons": [],
+  "start_url": "index.html"
+}
